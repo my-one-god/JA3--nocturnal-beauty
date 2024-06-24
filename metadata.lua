@@ -4,7 +4,7 @@ return PlaceObj('ModDef', {
 	'last_changes', "Several color schemes for the various types of darkness",
 	'id', "Tpi36ru",
 	'author', "MyOneGod",
-	'version', 1,
+	'version', 2,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -23,10 +23,10 @@ return PlaceObj('ModDef', {
 		MOG__NocturnalBeauty__Lightmodel_Rainstorm = MOG__NocturnalBeauty__Options_Inheritable__Inherit,
 		MOG__NocturnalBeauty__Lightmodel_Underground = MOG__NocturnalBeauty__Options_Inheritable__Inherit,
 	},
-	'TagVisuals&Graphics', true,
-	'saved', 1719247178,
-	'code_hash', 1356345258178995137,
+	'saved', 1719261421,
+	'code_hash', -7242090951090223830,
 	'affected_resources', {},
+	'TagVisuals&Graphics', true,
 	'description',
 	"[h1]Nocturnal Beauty [MOG][/h1]"
 	.."\n[b][i]Making Nights look gorgeous.[/i][/b]"
