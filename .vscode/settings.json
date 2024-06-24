@@ -1,0 +1,12 @@
+{
+	"Lua.diagnostics.globals": [
+		"CurrentLightmodel",
+		"CurrentModOptions",
+		"OnMsg",
+		"PlaceObj",
+		"SetLightmodel",
+		"UnitDataDefs",
+		"GetRGB",
+		"RGB",
+	]
+}
