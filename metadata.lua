@@ -4,7 +4,7 @@ return PlaceObj('ModDef', {
 	'last_changes', "Several color schemes for the various types of darkness",
 	'id', "Tpi36ru",
 	'author', "MyOneGod",
-	'version', 2,
+	'version', 3,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -23,7 +23,7 @@ return PlaceObj('ModDef', {
 		MOG__NocturnalBeauty__Lightmodel_Rainstorm = MOG__NocturnalBeauty__Options_Inheritable__Inherit,
 		MOG__NocturnalBeauty__Lightmodel_Underground = MOG__NocturnalBeauty__Options_Inheritable__Inherit,
 	},
-	'saved', 1719261421,
+	'saved', 1719327637,
 	'code_hash', -7242090951090223830,
 	'affected_resources', {},
 	'TagVisuals&Graphics', true,
@@ -46,13 +46,25 @@ return PlaceObj('ModDef', {
 	.."\n	[*][b]Blood Moon:[/b] everything tinged a deep crimson"
 	.."\n	[*][b]Dusk till Dawn:[/b] orange-red for that gloomy feeling"
 	.."\n	[*][b]London Cheer:[/b] like a rainy night in the British capital"
-	.."\n	[*][b]Melancholy Calm <color 222 160 0>[i][noparse][default][/noparse][/i]</color>:[/b] bluish tones that make it feel like a quiet night"
+	.."\n	[*][b]Melancholy Calm [i][noparse][default][/noparse][/i]:[/b] bluish tones that make it feel like a quiet night"
 	.."\n	[*][b]Noir:[/b] if you want to feel like a 50s sleuth, this is your theme"
 	.."\n	[*][b]Watery Grave:[/b] for those nights when you just want to stay under the surface of a calm body of water"
 	.."\n	[*][b]Swamp Thing:[/b] it is green, and a sane person would dread it… you're gonna like it"
 	.."\n	[*][b]Vanilla:[/b] …why did you even install this mod?!"
 	.."\n	[*][b]Custom:[/b] allows you to set the tone just right, no limits… also no guarantees – you mess this up, it's on you. Enjoy!"
 	.."\n[/list]"
+	.."\n"
+	.."\n[h3]"
+		.."[b]Each palette is available in three different strengths, for more or less departure from Vanilla[/b]"
+	.."\n[/h3]"
+	.."\n[list]"
+	.."\n	[*][b]Absolute:[/b] Fully replace the Vanilla Lightmodel"
+	.."\n	[*][b]Light:[/b] Tinge the Vanilla Lightmodel with the new color palette but leave some of the original"
+	.."\n	[*][b]Strong:[/b] Between Light and Absolute"
+	.."\n[/list]"
+	.."\nEvery environment in the game can have an individual color scheme based on terrain, time, weather."
+	.."\nThis gradation allows you to keep some of that alive while still pushing towards a different aesthetic."
+	.."\nAdditionally, the Absolute strength is usually quite dark and you may just not want to go that far."
 	.."\n"
 	.."\n[h3]"
 		.."[b]Set a different color palette for each type of dark environment[/b]"
