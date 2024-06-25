@@ -109,20 +109,20 @@ addLightmodelModifier("Noir", {
 	ae_key_bias = -1200000,
 	desaturation = 100,
 })
-addLightmodelModifier("Watery Grave", {
-	ae_key_bias = -1600000,
-	gamma = rgb(
-		0,
-		42,
-		96
-	),
-})
 addLightmodelModifier("Swamp Thing", {
 	ae_key_bias = -1500000,
 	gamma = rgb(
 		16,
 		42,
 		0
+	),
+})
+addLightmodelModifier("Watery Grave", {
+	ae_key_bias = -1600000,
+	gamma = rgb(
+		0,
+		42,
+		96
 	),
 })
 
