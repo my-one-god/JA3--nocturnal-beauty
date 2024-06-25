@@ -245,10 +245,14 @@ local function getOverride(lightmodel, selector)
 
 	if target.ae_key_bias then
 		override.ae_key_bias = interpolate(baseValue.ae_key_bias, target.ae_key_bias)
+	else
+		override.ae_key_bias = baseValue.ae_key_bias
 	end
 
 	if target.desaturation then
 		override.desaturation = interpolate(baseValue.desaturation, target.desaturation)
+	else
+		override.desaturation = baseValue.desaturation
 	end
 
 	if target.gamma then
@@ -257,6 +261,8 @@ local function getOverride(lightmodel, selector)
 			interpolate(baseValue.gamma.g, target.gamma.g),
 			interpolate(baseValue.gamma.b, target.gamma.b)
 		)
+	else
+		override.gamma = baseValue.gamma
 	end
 
 	printDebug('override.ae_key_bias')
