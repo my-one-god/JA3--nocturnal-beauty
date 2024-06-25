@@ -12,10 +12,12 @@ return PlaceObj('ModDef', {
 	'screenshot9', "Screenshots/[MOG] Nocturnal Beauty - 08 - Noir.jpg",
 	'screenshot10', "Screenshots/[MOG] Nocturnal Beauty - 09 - Swamp Thing.jpg",
 	'screenshot11', "Screenshots/[MOG] Nocturnal Beauty - 10 - Watery Grave.jpg",
-	'last_changes', "Several color schemes for the various types of darkness",
+
+	'last_changes', "Fix for bug when switching between items with different sets of settings + Screenshots",
 	'id', "Tpi36ru",
+	'steam_id', "3274783005",
 	'author', "MyOneGod",
-	'version', 3,
+	'version', 4,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
